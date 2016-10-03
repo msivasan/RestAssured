@@ -3,7 +3,7 @@
 <suite name="Project Name">
   <test name="Unit tests">
     <classes>
-      <class name="org.projectname.persistentAPI.APITest"/>
+      <class name="org.projectName.persistentAPI.APITest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

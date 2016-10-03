@@ -6,6 +6,7 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 
 import org.framework.utils.ConvertToString;
+import org.framework.utils.PermittedCharacters;
 import org.framework.utils.RandomGenerator;
 import org.framework.utils.RestCustomMethods;
 import org.projectName.dataprovider.DatadrivenTestingFromExcel;
@@ -68,7 +69,7 @@ public class APITest extends ModulesInitialize{
 		
 		RestAssured.given().when().get(getBaseURL());
 		
-		String localeId = Integer.toString(RandomGenerator.generateEightRandomNumbers()+RandomGenerator.generateCharacters());
+		String localeId = RandomGenerator.random(6, PermittedCharacters.ALPHANUMERIC);
 		
 		String requestBody =user().getRequestBodyForCreatingUser(localeId,fileName);
 		
