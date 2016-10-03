@@ -1,0 +1,15 @@
+{
+  "status" : "ACTIVE",
+  "localeId" : "3015992",
+  "language" : "German",
+  "readonlyProperties" : {
+    "createdDateTime" : "2016-10-03T19:46:51.000+0000",
+    "id" : "11e689a2212c7e3e93d242010a800004",
+    "updatedDateTime" : "2016-10-03T19:46:51.000+0000"
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://mt1.cimm2.com/cimm2touch-s/unilog/rest/v1/db/master/locales/11e689a2212c7e3e93d242010a800004"
+    }
+  }
+}

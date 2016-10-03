@@ -1,0 +1,10 @@
+<IDMS-XML> 
+   <LoginSubmit> 
+      <Security> 
+         <Login> 
+            <LoginID>email</LoginID> 
+            <Password>password</Password> 
+         </Login> 
+      </Security> 
+   </LoginSubmit> 
+</IDMS-XML>
